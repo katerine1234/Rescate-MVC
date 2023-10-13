@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link href="styleFelinos.css" rel="stylesheet" type="text/css"/>
+    <title>Agregar Felino</title>
+</head>
+<body>
+    <form action="felino.jsp" method="post">
+        <label for="nombreFelino">Nombre del Felino:</label>
+        <input type="text" name="nombreFelino" required><br>
+
+        <label for="razaFelino">Raza del Felino:</label>
+        <input type="text" name="razaFelino" required><br>
+
+        <label for="colorFelino">Color del Felino:</label>
+        <input type="text" name="colorFelino" required><br>
+
+        <label for="edadFelino">Edad del Felino:</label>
+        <input type="number" name="edadFelino" required><br>
+
+        <label for="libreToxoplasmosis">¿Libre de Toxoplasmosis?</label>
+        <select name="libreToxoplasmosis" required>
+            <option value="Si">Sí</option>
+            <option value="No">No</option>
+        </select><br>
+
+        <input type="submit" value="Agregar Felino">
+    </form>
+    <a href="index.html">Volver al inicio</a>
+</body>
+</html>
+

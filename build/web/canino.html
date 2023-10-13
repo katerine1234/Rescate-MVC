@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link href="styleDog.css" rel="stylesheet" type="text/css"/>
+    <title>Agregar Canino</title>
+</head>
+<body>
+    <form action="canino.jsp" method="post">
+        <label for="nombreCanino">Nombre del Canino:</label>
+        <input type="text" name="nombreCanino" required><br>
+
+        <label for="razaCanino">Raza del Canino:</label>
+        <input type="text" name="razaCanino" required><br>
+
+        <label for="colorCanino">Color del Canino:</label>
+        <input type="text" name="colorCanino" required><br>
+
+        <label for="edadCanino">Edad del Canino:</label>
+        <input type="number" name="edadCanino" required><br>
+
+        <label for="nivelEntrenamiento">Nivel de entrenamiento (0-10):</label>
+        <input type="number" name="nivelEntrenamiento" required min="0" max="10"><br>
+
+        <input type="submit" value="Agregar Canino">
+    </form>
+    <a href="index.html">Volver al inicio</a>
+</body>
+</html>
+

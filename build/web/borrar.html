@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link href="styleGeneral.css" rel="stylesheet" type="text/css"/>
+
+    <title>Retirar Mascota</title>
+</head>
+<body>
+    <h1>Retirar Mascota</h1>
+    
+    <form action="borrar.jsp" method="post">
+        <label for="tipoMascota">Seleccione el tipo de mascota:</label>
+        <select name="tipoMascota" required>
+            <option value="Canino">Canino</option>
+            <option value="Felino">Felino</option>
+        </select><br>
+
+        <label for="nombreMascota">Nombre de la mascota a retirar:</label>
+        <input type="text" name="nombreMascota" required><br>
+
+        <input type="submit" value="Retirar Mascota">
+    </form>
+
+    <a href="index.html">Volver al inicio</a>
+</body>
+</html>

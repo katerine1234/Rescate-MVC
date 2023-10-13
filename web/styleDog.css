@@ -1,0 +1,50 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 28 sept 2023, 16:09:47
+    Author     : Katerine  Forero
+*/
+body {
+    margin: 100px;
+    padding: 100px;
+    font-family: Arial, sans-serif;
+    background-image: url('dog.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+    margin-top: 20px;
+}
+
+/* Estilos para la tabla y su contenedor */
+.info-table-container {
+    margin: 20px; /* Ajusta el margen según tus preferencias */
+    float: right;
+    width: 50%; /* Ajusta el ancho de la tabla según tus preferencias */
+    text-align: right; /* Centra el contenido a la derecha */
+}
+
+.centered {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.centered th, .centered td {
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+    border: 1px solid #2980b9;
+}
+
+.centered th {
+    background-color: #3498db;
+}
+
+
